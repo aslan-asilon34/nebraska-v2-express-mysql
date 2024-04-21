@@ -1,0 +1,8 @@
+const mongoose = require('mongoose'); // Import Mongoose
+
+// Connection details (replace with your own)
+const uri = "mongodb://localhost:27017/nebraska_v2_mongodb"; // Replace with your MongoDB connection URI
+
+mongoose.connect(uri)
+  .then(() => console.log('MongoDB connection established!'))
+  .catch(err => console.error('MongoDB connection error:', err));
