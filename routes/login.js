@@ -1,9 +1,9 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET welcome page. */
+/* GET login page. */
 router.get('/', function(req, res, next) {
-  res.render('welcome/index', { title: 'Welcome to Nebraska !' , layout: './layouts/welcome-layout'});
+  res.render('auth-page/login', { title: 'login page' , layout: './layouts/auth-layout' });
 });
 
 module.exports = router;

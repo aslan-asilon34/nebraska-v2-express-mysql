@@ -1,1 +1,14 @@
 https://santrikoding.com/tutorial-node-express-mysql-2
+
+
+====================================================
+https://www.raddy.dev/blog/nodejs-express-layouts-and-partials/
+npm install ejs express express-ejs-layouts
+
+=======================================================
+
+
+        <!-- <%- include('../partials/header.ejs') %> -->
+        <main><%- body %></main>
+        <!-- <%- include('../partials/footer.ejs') %> -->
+        ========================================================
